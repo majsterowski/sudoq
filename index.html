@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <title>SudoQ</title>
+        <meta charset="utf-8">
+        <meta name="author" content="Konrad Kowalik">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="fonts/css/fontello.css">
+        <link href="https://fonts.googleapis.com/css?family=Alata&display=swap" rel="stylesheet">  
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <header>
+            <!-- <h1><span>Sū</span>ji wa <span>doku</span>shin ni kagiru</h1> -->
+            <h1>Sudo<span>Q</span></h1>
+        </header>
+        <nav>
+            <div onclick="make(45)">Bardzo łatwy</div>
+            <div onclick="make(40)">Łatwy</div>
+            <div onclick="make(35)">Normalny</div>
+            <div onclick="make(28)">Trudny</div>
+            <div onclick="make(21)">Bardzo trudny</div>
+        </nav>
+        <main>
+            <section>
+                <span>
+                    <h1>Wybierz poziom trudności...</h1>
+                    <h1>i rozwiąż swoje Sudo<span>Q</span></h1>
+                </span>
+            </section>
+            <section>
+                <section></section>
+                <i>i</i>
+                <div>
+                    <i>i</i>
+                    <h4><span>Click:</span> Select a box</h4>
+                    <h4><span>Double click:</span> Erase content from the box</h4>
+                    <h4><span>Keyboard [1 - 9]:</span> Type a number</h4>
+                </div>
+                <article>
+                    <div>1</div>
+                    <div>2</div>
+                    <div>3</div>
+                    <div>4</div>
+                    <div>5</div>
+                    <div>6</div>
+                    <div>7</div>
+                    <div>8</div>
+                    <div>9</div>
+                </article>
+                <button onclick="check()">Sprawdź</button>
+            </section>
+        </main>
+        <footer>
+
+        </footer>
+    </body>
+    <script src="code.js"></script>
+</html>
